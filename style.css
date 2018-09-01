@@ -18,9 +18,9 @@ body {
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: green;
+      background-color: white;
       color: #fff;
-      padding: 100px 25px;
+      /*padding: 100px 25px;*/
       font-family: Montserrat, sans-serif;
   }
   .container-fluid {
@@ -215,4 +215,52 @@ body, html {
 
 .myBtn:hover {
   background-color: #555;
+}
+.inlineChanges{
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 468px;
+}
+.alkamyHeading{
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    width: 400px;
+    height: 400px; 
+}
+.alkamyImg1{
+    position: absolute;
+    top: 230px;
+    left: 750px;
+    width: 230px;
+    height: 120px; 
+}
+.alkamyImg2{
+    position: absolute;
+    top: 530px;
+    right: 10px;
+    width: 230px;
+    height: 120px; 
+}
+.alkamyImg3{
+    position: absolute;
+    top: 130px;
+    right: 100px;
+    width: 230px;
+    height: 120px; 
+}
+.alkamyImg4{
+    position: absolute;
+    top: 330px;
+    left: 1300px;
+    width: 230px;
+    height: 120px; 
+}
+.alkamyImg5{
+    position: absolute;
+    top: 480px;
+    right: 330px;
+    width: 230px;
+    height: 120px; 
 }
