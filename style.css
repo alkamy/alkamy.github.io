@@ -115,6 +115,7 @@ body {
       letter-spacing: 4px;
       border-radius: 0;
       font-family: Montserrat, sans-serif;
+      width:100%;
   }
   .navbar li a, .navbar .navbar-brand {
       color: #fff !important;
@@ -228,6 +229,33 @@ body, html {
     left: 10px;
     width: 400px;
     height: 400px; 
+    font-size:2.5em
+}
+@media screen and (max-width:400px) {
+	.alkamyHeading{
+	    top: 180px;
+	    left: 30px;
+		width: 300px;
+    	height:200px;
+    	font-size:2.0em; 
+	}
+}
+.alkamyHeading2{
+    position: absolute;
+    top: 280px;
+    left: 10px;
+    width: 400px;
+    height: 400px; 
+    font-size:1.5em;
+}
+@media screen and (max-width:400px) {
+	.alkamyHeading2{
+	    top: 220px;
+	    left: 80px;
+		width: 200px;
+    	height:200px;
+    	font-size:1.0em; 
+	}
 }
 .alkamyImg1{
     position: absolute;
@@ -236,6 +264,15 @@ body, html {
     width: 230px;
     height: 120px; 
 }
+@media screen and (max-width:400px) {
+	.alkamyImg1{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    width: 100px;
+    height: 100px; 
+}
+	}
 .alkamyImg2{
     position: absolute;
     top: 530px;
@@ -243,6 +280,15 @@ body, html {
     width: 230px;
     height: 120px; 
 }
+@media screen and (max-width:400px) {
+	.alkamyImg2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px; 
+}
+	}
 .alkamyImg3{
     position: absolute;
     top: 130px;
@@ -250,6 +296,16 @@ body, html {
     width: 230px;
     height: 120px; 
 }
+@media screen and (max-width:400px) {
+	.alkamyImg3{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100px;
+    height: 100px; 
+}
+	}
+
 .alkamyImg4{
     position: absolute;
     top: 330px;
@@ -257,6 +313,15 @@ body, html {
     width: 230px;
     height: 120px; 
 }
+@media screen and (max-width:400px) {
+	.alkamyImg4{
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    width: 100px;
+    height: 100px; 
+}
+	}
 .alkamyImg5{
     position: absolute;
     top: 480px;
@@ -264,3 +329,13 @@ body, html {
     width: 230px;
     height: 120px; 
 }
+@media screen and (max-width:400px) {
+	.alkamyImg5{
+    position: absolute;
+    top: 400px;
+    right: 15px;
+    width: 100px;
+    height: 80px; 
+}
+	}
+
