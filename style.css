@@ -231,7 +231,7 @@ body, html {
     height: 400px; 
     font-size:2.5em
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:480px) {
 	.alkamyHeading{
 	    top: 180px;
 	    left: 30px;
@@ -248,7 +248,7 @@ body, html {
     height: 400px; 
     font-size:1.5em;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:480px) {
 	.alkamyHeading2{
 	    top: 220px;
 	    left: 80px;
@@ -264,7 +264,7 @@ body, html {
     width: 230px;
     height: 120px; 
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:480px) {
 	.alkamyImg1{
     position: absolute;
     top: 300px;
@@ -280,7 +280,7 @@ body, html {
     width: 230px;
     height: 120px; 
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:480px) {
 	.alkamyImg2{
     position: absolute;
     top: 0px;
@@ -296,7 +296,7 @@ body, html {
     width: 230px;
     height: 120px; 
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:480px) {
 	.alkamyImg3{
     position: absolute;
     top: 50px;
@@ -313,7 +313,7 @@ body, html {
     width: 230px;
     height: 120px; 
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:480px) {
 	.alkamyImg4{
     position: absolute;
     top: 500px;
@@ -329,7 +329,7 @@ body, html {
     width: 230px;
     height: 120px; 
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:480px) {
 	.alkamyImg5{
     position: absolute;
     top: 400px;
