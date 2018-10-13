@@ -354,4 +354,30 @@ body, html {
     height: 80px; 
 }
 	}
+.blockAlgnmnt{
+	margin-left:50%;
+}
+@media screen and (max-width:480px) {
+	.blockAlgnmnt{
+	margin-left:0%;
+	}
+}
+.blockText{
+	padding-left: 290px;
+}
+@media screen and (max-width:480px) {
+	.blockText{
+	padding-left: 20px;
+}
+}
 
+.blockStyle{
+	height:200px;
+	width:555px;
+}
+@media screen and (max-width:480px) {
+	.blockStyle{
+	height:200px;
+	width:555px;
+}
+}
