@@ -181,21 +181,20 @@ body, html {
     height: 100%;
     margin: 0;
 }
+@media screen and (max-width: 480px) {
+	.bg {
+		/* The image used */
+		background-image: url("images/alkamy_bg.jpg");
 
-.bg {
-    /* The image used */
-    background-image: url("images/1.jpg");
+		/* Full height */
+		height: 100%; 
 
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	opacity: 0.5;
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
-
 .myBtn {
   display: none;
   position: fixed;
@@ -250,22 +249,26 @@ body, html {
 }
 @media screen and (max-width:480px) {
 	.alkamyHeading2{
-	    top: 290px;
+		color:white;
+	    top: 300px;
 	    left: 80px;
 		width: 200px;
     	height:200px;
-    	font-size:1.0em; 
+    	font-size:0.8em; 
 	}
 }
 .alkamyMain{
+	content:url("images/main.png");
 	position: absolute;
     top: 220px;
     left: 50px;
     width: 300px;
     height: 100px; 
+	
 }
 @media screen and (max-width:480px) {
 	.alkamyMain{
+		content:url("images/main_white.png");
 	position: absolute;
     top: 220px;
     left: 50px;
@@ -283,10 +286,10 @@ body, html {
 @media screen and (max-width:480px) {
 	.alkamyImg1{
     position: absolute;
-    top: 120px;
-    left: 240px;
-    width: 100px;
-    height: 100px; 
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px; 
 }
 	}
 .alkamyImg2{
@@ -315,10 +318,10 @@ body, html {
 @media screen and (max-width:480px) {
 	.alkamyImg3{
     position: absolute;
-    top: 50px;
+    top: 0px;
     left: 0px;
-    width: 100px;
-    height: 100px; 
+    width: 0px;
+    height: 0px; 
 }
 	}
 
@@ -332,10 +335,10 @@ body, html {
 @media screen and (max-width:480px) {
 	.alkamyImg4{
     position: absolute;
-    top: 460px;
-    left: 10px;
-    width: 100px;
-    height: 100px; 
+     top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px; 
 }
 	}
 .alkamyImg5{
@@ -348,10 +351,10 @@ body, html {
 @media screen and (max-width:480px) {
 	.alkamyImg5{
     position: absolute;
-    top: 400px;
-    right: 15px;
-    width: 100px;
-    height: 80px; 
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px; 
 }
 	}
 .blockAlgnmnt{
@@ -380,4 +383,7 @@ body, html {
 	height:200px;
 	width:555px;
 }
+}
+.contactBullet{
+    background-color:#555";
 }
